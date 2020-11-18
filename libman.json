@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "es5-shim@4.5.13",
+      "destination": "js/",
+      "files": [
+        "es5-shim.min.js",
+        "es5-sham.min.js"
+      ]
+    },
+    {
+      "library": "jquery@1.12.4",
+      "destination": "js/",
+      "files": [
+        "jquery.min.js"
+      ]
+    },
+    {
+      "library": "respond.js@1.4.2",
+      "destination": "js/",
+      "files": [
+        "respond.min.js"
+      ]
+    },
+    {
+      "library": "html5shiv@3.7.3",
+      "destination": "js/",
+      "files": [
+        "html5shiv.min.js"
+      ]
+    },
+    {
+      "library": "es6-shim@0.35.5",
+      "destination": "js/",
+      "files": [
+        "es6-shim.min.js",
+        "es6-sham.min.js"
+      ]
+    }
+  ]
+}

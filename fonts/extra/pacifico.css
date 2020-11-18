@@ -1,0 +1,16 @@
+﻿/* pacifico-regular - latin_cyrillic-ext_latin-ext_cyrillic */
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./pacifico/pacifico-v16-latin_cyrillic-ext_latin-ext_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('./pacifico/pacifico-v16-latin_cyrillic-ext_latin-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('./pacifico/pacifico-v16-latin_cyrillic-ext_latin-ext_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('./pacifico/pacifico-v16-latin_cyrillic-ext_latin-ext_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+    url('./pacifico/pacifico-v16-latin_cyrillic-ext_latin-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('./pacifico/pacifico-v16-latin_cyrillic-ext_latin-ext_cyrillic-regular.svg#Pacifico') format('svg'); /* Legacy iOS */
+}
+
+.font-pacifico {
+    font-family: 'Pacifico', handwriting;
+}

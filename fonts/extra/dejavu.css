@@ -1,0 +1,200 @@
+﻿@font-face {
+    font-family: 'DejaVu Math TeX Gyre';
+    src: url('./dejavu/./dejavu/DejaVuMathTeXGyre.eot');
+    src: url('./dejavu/DejaVuMathTeXGyre-Regular.eot?#iefix') format('embedded-opentype'), url('./dejavu/DejaVuMathTeXGyre-Regular.woff2') format('woff2'), url('./dejavu/DejaVuMathTeXGyre-Regular.woff') format('woff'), url('./dejavu/DejaVuMathTeXGyre-Regular.ttf') format('truetype'), url('./dejavu/DejaVuMathTeXGyre-Regular.svg#DejaVuMathTeXGyre-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('./dejavu/dejavu-sans/DejaVuSans.eot');
+    src: url('./dejavu/dejavu-sans/DejaVuSans.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans/DejaVuSans.woff2') format('woff2'), url('./dejavu/dejavu-sans/DejaVuSans.woff') format('woff'), url('./dejavu/dejavu-sans/DejaVuSans.ttf') format('truetype'), url('./dejavu/dejavu-sans/DejaVuSans.svg#DejaVuSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('./dejavu/dejavu-sans/DejaVuSans-Oblique.eot');
+    src: url('./dejavu/dejavu-sans/DejaVuSans-Oblique.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans/DejaVuSans-Oblique.woff2') format('woff2'), url('./dejavu/dejavu-sans/DejaVuSans-Oblique.woff') format('woff'), url('./dejavu/dejavu-sans/DejaVuSans-Oblique.ttf') format('truetype'), url('./dejavu/dejavu-sans/DejaVuSans-Oblique.svg#DejaVuSans-Oblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('./dejavu/dejavu-sans/DejaVuSans-Bold.eot');
+    src: url('./dejavu/dejavu-sans/DejaVuSans-Bold.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans/DejaVuSans-Bold.woff2') format('woff2'), url('./dejavu/dejavu-sans/DejaVuSans-Bold.woff') format('woff'), url('./dejavu/dejavu-sans/DejaVuSans-Bold.ttf') format('truetype'), url('./dejavu/dejavu-sans/DejaVuSans-Bold.svg#DejaVuSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('./dejavu/dejavu-sans/DejaVuSans-BoldOblique.eot');
+    src: url('./dejavu/dejavu-sans/DejaVuSans-BoldOblique.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans/DejaVuSans-BoldOblique.woff2') format('woff2'), url('./dejavu/dejavu-sans/DejaVuSans-BoldOblique.woff') format('woff'), url('./dejavu/dejavu-sans/DejaVuSans-BoldOblique.ttf') format('truetype'), url('./dejavu/dejavu-sans/DejaVuSans-BoldOblique.svg#DejaVuSans-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans';
+    src: url('./dejavu/dejavu-sans/DejaVuSans-ExtraLight.eot');
+    src: url('./dejavu/dejavu-sans/DejaVuSans-ExtraLight.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans/DejaVuSans-ExtraLight.woff2') format('woff2'), url('./dejavu/dejavu-sans/DejaVuSans-ExtraLight.woff') format('woff'), url('./dejavu/dejavu-sans/DejaVuSans-ExtraLight.ttf') format('truetype'), url('./dejavu/dejavu-sans/DejaVuSans-ExtraLight.svg#DejaVuSans-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed.eot');
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed.woff2') format('woff2'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed.woff') format('woff'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed.ttf') format('truetype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed.svg#DejaVuSansCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Oblique.eot');
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Oblique.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Oblique.woff2') format('woff2'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Oblique.woff') format('woff'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Oblique.ttf') format('truetype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Oblique.svg#DejaVuSansCondensed-Oblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Bold.eot');
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Bold.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Bold.woff2') format('woff2'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Bold.woff') format('woff'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Bold.ttf') format('truetype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-Bold.svg#DejaVuSansCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Condensed';
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-BoldOblique.eot');
+    src: url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-BoldOblique.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-BoldOblique.woff2') format('woff2'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-BoldOblique.woff') format('woff'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-BoldOblique.ttf') format('truetype'), url('./dejavu/dejavu-sans-condensed/DejaVuSansCondensed-BoldOblique.svg#DejaVuSansCondensed-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono.eot');
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono.woff2') format('woff2'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono.woff') format('woff'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono.ttf') format('truetype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono.svg#DejaVuSansMono') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Oblique.eot');
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Oblique.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Oblique.woff2') format('woff2'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Oblique.woff') format('woff'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Oblique.ttf') format('truetype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Oblique.svg#DejaVuSansMono-Oblique') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Bold.eot');
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Bold.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Bold.woff2') format('woff2'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Bold.woff') format('woff'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Bold.ttf') format('truetype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-Bold.svg#DejaVuSansMono-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Sans Mono';
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono-BoldOblique.eot');
+    src: url('./dejavu/dejavu-sans-mono/DejaVuSansMono-BoldOblique.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-BoldOblique.woff2') format('woff2'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-BoldOblique.woff') format('woff'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-BoldOblique.ttf') format('truetype'), url('./dejavu/dejavu-sans-mono/DejaVuSansMono-BoldOblique.svg#DejaVuSansMono-BoldOblique') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('./dejavu/dejavu-serif/DejaVuSerif.eot');
+    src: url('./dejavu/dejavu-serif/DejaVuSerif.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif/DejaVuSerif.woff2') format('woff2'), url('./dejavu/dejavu-serif/DejaVuSerif.woff') format('woff'), url('./dejavu/dejavu-serif/DejaVuSerif.ttf') format('truetype'), url('./dejavu/dejavu-serif/DejaVuSerif.svg#DejaVuSerif') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('./dejavu/dejavu-serif/DejaVuSerif-Italic.eot');
+    src: url('./dejavu/dejavu-serif/DejaVuSerif-Italic.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif/DejaVuSerif-Italic.woff2') format('woff2'), url('./dejavu/dejavu-serif/DejaVuSerif-Italic.woff') format('woff'), url('./dejavu/dejavu-serif/DejaVuSerif-Italic.ttf') format('truetype'), url('./dejavu/dejavu-serif/DejaVuSerif-Italic.svg#DejaVuSerif-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('./dejavu/dejavu-serif/DejaVuSerif-Bold.eot');
+    src: url('./dejavu/dejavu-serif/DejaVuSerif-Bold.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif/DejaVuSerif-Bold.woff2') format('woff2'), url('./dejavu/dejavu-serif/DejaVuSerif-Bold.woff') format('woff'), url('./dejavu/dejavu-serif/DejaVuSerif-Bold.ttf') format('truetype'), url('./dejavu/dejavu-serif/DejaVuSerif-Bold.svg#DejaVuSerif-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif';
+    src: url('./dejavu/dejavu-serif/DejaVuSerif-BoldItalic.eot');
+    src: url('./dejavu/dejavu-serif/DejaVuSerif-BoldItalic.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif/DejaVuSerif-BoldItalic.woff2') format('woff2'), url('./dejavu/dejavu-serif/DejaVuSerif-BoldItalic.woff') format('woff'), url('./dejavu/dejavu-serif/DejaVuSerif-BoldItalic.ttf') format('truetype'), url('./dejavu/dejavu-serif/DejaVuSerif-BoldItalic.svg#DejaVuSerif-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif Condensed';
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed.eot');
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed.woff2') format('woff2'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed.woff') format('woff'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed.ttf') format('truetype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed.svg#DejaVuSerifCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif Condensed';
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Italic.eot');
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Italic.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Italic.woff2') format('woff2'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Italic.woff') format('woff'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Italic.ttf') format('truetype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Italic.svg#DejaVuSerifCondensed-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif Condensed';
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Bold.eot');
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Bold.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Bold.woff2') format('woff2'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Bold.woff') format('woff'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Bold.ttf') format('truetype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-Bold.svg#DejaVuSerifCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVu Serif Condensed';
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-BoldItalic.eot');
+    src: url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-BoldItalic.eot?#iefix') format('embedded-opentype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-BoldItalic.woff2') format('woff2'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-BoldItalic.woff') format('woff'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-BoldItalic.ttf') format('truetype'), url('./dejavu/dejavu-serif-condensed/DejaVuSerifCondensed-BoldItalic.svg#DejaVuSerifCondensed-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.font-dejavu-math {
+    font-family: 'DejaVu Math TeX Gyre';
+}
+
+.font-dejavu-sans {
+    font-family: "DejaVu Sans", "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+}
+
+.font-dejavu-sans-condensed {
+    font-family: "DejaVu Sans Condensed", "Helvetica Neue Condensed", "Helvetica Condensed", "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+}
+
+.font-dejavu-sans-mono {
+    font-family: "DejaVu Sans Mono", "Courier New", "Courier", monospace;
+}
+
+.font-dejavu-serif {
+    font-family: "DejaVu Serif", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", Times, serif;
+}
+
+.font-dejavu-serif-condensed {
+    font-family: "DejaVu Serif Condensed", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, "Times New Roman", Times, serif;
+}

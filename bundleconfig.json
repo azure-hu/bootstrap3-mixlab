@@ -1,0 +1,62 @@
+[
+  {
+    "outputFileName": "css/bs3-amelia-typography.min.css",
+    "inputFiles": [
+      "css/bs3-amelia-typography.css"
+    ]
+  },
+  {
+    "outputFileName": "css/bs3-mixlab.min.css",
+    "inputFiles": [
+      "css/bs3-mixlab.css"
+    ]
+  },
+  {
+    "outputFileName": "css/fork-awesome.min.css",
+    "inputFiles": [
+      "css/fork-awesome.css"
+    ]
+  },
+  {
+    "outputFileName": "css/v5-compat.min.css",
+    "inputFiles": [
+      "css/v5-compat.css"
+    ]
+  },
+  {
+    "outputFileName": "css/bs3-mixlab-fancy.min.css",
+    "inputFiles": [
+      "css/bs3-mixlab-fancy.css"
+    ]
+  },
+  {
+    "outputFileName": "css/bs3-big-grid.min.css",
+    "inputFiles": [
+      "css/bs3-big-grid.css"
+    ]
+  },
+  {
+    "outputFileName": "css/bs3-utilities-from-bs4.min.css",
+    "inputFiles": [
+      "css/bs3-utilities-from-bs4.css"
+    ]
+  },
+  {
+    "outputFileName": "js/bootstrap.min.js",
+    "inputFiles": [
+      "js/bootstrap.js"
+    ]
+  },
+  {
+    "outputFileName": "js/bootstrap-essentials.min.js",
+    "inputFiles": [
+      "js/bootstrap-essentials.js"
+    ]
+  },
+  {
+    "outputFileName": "css/bootstrap-essentials.min.css",
+    "inputFiles": [
+      "css/bootstrap-essentials.css"
+    ]
+  }
+]
