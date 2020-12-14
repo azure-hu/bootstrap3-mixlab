@@ -1,8 +1,8 @@
-﻿@import url(../fonts/fira-zilla.css);
-@import url(../fonts/cabin.css);
-@import url(../fonts/eb-garamond.css);
-@import url(../fonts/josefin.css);
-@import url(../fonts/lobster.css);
+﻿@import url("./../fonts/fira-zilla.css");
+@import url("./../fonts/cabin.css");
+@import url("./../fonts/eb-garamond.css");
+@import url("./../fonts/josefin.css");
+@import url("./../fonts/lobster.css");
 
 body {
 	font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
