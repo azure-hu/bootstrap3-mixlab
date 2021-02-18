@@ -17,6 +17,66 @@
  * Licensed under MIT
  * Based on Bootswatch v3.4.1 SpaceLab and Cerulean themes
 */
+@font-face {
+    font-family: 'Selawik';
+    font-weight: 100;
+    font-style: normal;
+    src: local('Selawik');
+	src: url('../fonts/selawik/selawkl.eot');
+	src: url('../fonts/selawik/selawkl.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/selawik/selawkl.woff') format('woff'),
+		 url('../fonts/selawik/selawkl.woff2') format('woff2'),
+		 url('../fonts/selawik/selawkl.ttf')  format('truetype'),
+		 url('../fonts/selawik/selawkl.svg#Selawik') format('svg');
+}
+@font-face {
+    font-family: 'Selawik';
+    font-style: normal;
+    font-weight: 300;    
+	src: local('Selawik');
+	src: url('../fonts/selawik/selawksl.eot');
+	src: url('../fonts/selawik/selawksl.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/selawik/selawksl.woff') format('woff'),
+		 url('../fonts/selawik/selawksl.woff2') format('woff2'),
+		 url('../fonts/selawik/selawksl.ttf')  format('truetype'),
+		 url('../fonts/selawik/selawksl.svg#Selawik') format('svg');
+}
+@font-face {
+    font-family: 'Selawik';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Selawik');
+	src: url('../fonts/selawik/selawk.eot');
+	src: url('../fonts/selawik/selawk.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/selawik/selawk.woff') format('woff'),
+		 url('../fonts/selawik/selawk.woff2') format('woff2'),
+		 url('../fonts/selawik/selawk.ttf')  format('truetype'),
+		 url('../fonts/selawik/selawk.svg#Selawik') format('svg');
+}
+@font-face {
+    font-family: 'Selawik';
+    font-style: normal;
+    font-weight: 600;
+	src: local('Selawik');
+	src: url('../fonts/selawik/selawksb.eot');
+	src: url('../fonts/selawik/selawksb.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/selawik/selawksb.woff') format('woff'),
+		 url('../fonts/selawik/selawksb.woff2') format('woff2'),
+		 url('../fonts/selawik/selawksb.ttf')  format('truetype'),
+		 url('../fonts/selawik/selawksb.svg#Selawik') format('svg');
+}
+@font-face {
+    font-family: 'Selawik';
+    font-style: normal;
+    font-weight: 700;
+	src: local('Selawik');
+	src: url('../fonts/selawik/selawkb.eot');
+	src: url('../fonts/selawik/selawkb.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/selawik/selawkb.woff') format('woff'),
+		 url('../fonts/selawik/selawkb.woff2') format('woff2'),
+		 url('../fonts/selawik/selawkb.ttf')  format('truetype'),
+		 url('../fonts/selawik/selawkb.svg#Selawik') format('svg');
+}
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -1539,7 +1599,7 @@ html {
 }
 
 body {
-    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Selawik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     color: #666;
@@ -1656,7 +1716,6 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: "Zilla Slab", Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
     font-weight: 500;
     line-height: 1.1;
 }
@@ -2032,7 +2091,7 @@ blockquote {
 }
 
     blockquote small {
-        font-family: "Zilla Slab", Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+        font-family: Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
     }
 
     blockquote p:last-child,
@@ -2093,7 +2152,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: "Fira Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 code {
@@ -8382,7 +8441,7 @@ button.close {
     position: absolute;
     z-index: 1070;
     display: block;
-    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Selawik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.42857143;
@@ -8520,7 +8579,7 @@ button.close {
     display: none;
     max-width: 276px;
     padding: 1px;
-    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Selawik", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.42857143;

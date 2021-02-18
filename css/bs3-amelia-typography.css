@@ -23,7 +23,7 @@ h6 {
     h4 small,
     h5 small,
     h6 small {
-        font-family: 'Josefin Slab', Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+        font-family: "Josefin Slab", Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
     }
 
 .alert h1,
@@ -45,8 +45,10 @@ h6 {
     }
 
 code,
-pre {
-	font-family: "Fira Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+kbd,
+pre,
+samp {
+    font-family: "Fira Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 
@@ -58,11 +60,11 @@ textarea {
 }
 
 .navbar-search .search-query {
-	font-family: 'Cabin', Verdana, sans-serif;
+	font-family: "Cabin", Verdana, sans-serif;
 }
 
 .navbar-brand {
-	font-family: 'Lobster', cursive;
+	font-family: "Lobster", cursive;
 }
 
 .navbar {
@@ -70,15 +72,15 @@ textarea {
 }
 
 legend {
-	font-family: 'EB Garamond', cursive;
+	font-family: "EB Garamond", cursive;
 }
 
 blockquote {
-    font-family: 'EB Garamond', Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+    font-family: "Zilla Slab", Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
 }
 
     blockquote small {
-        font-family: 'Josefin Slab', Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+        font-family: "Josefin Slab", Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
     }
 
 .jumbotron h1,
@@ -88,4 +90,12 @@ blockquote {
 .jumbotron h5,
 .jumbotron h6 {
     font-family: "EB Garamond", Georgia, "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, serif;
+}
+
+.tooltip {
+    font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.popover {
+	font-family:  "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
