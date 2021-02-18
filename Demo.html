@@ -6,18 +6,18 @@
     <title>BootSwatch MixLab</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="dist/css/bs3-mixlab.css" media="screen" />
-    <link rel="stylesheet" href="dist/css/bootstrap-essentials.min.css" media="screen" />
-    <link rel="stylesheet" href="dist/css/bs3-big-grid.css" media="screen" />
-    <link rel="stylesheet" href="dist/css/bs3-mixlab-fancy.css" media="screen" />
-    <link rel="stylesheet" href="dist/css/bs3-amelia-typography.css" media="screen" />
-    <link rel="stylesheet" href="dist/css/fork-awesome.css" media="screen" />
+    <link rel="stylesheet" href="css/bs3-mixlab.css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap-essentials.min.css" media="screen" />
+    <link rel="stylesheet" href="css/bs3-big-grid.css" media="screen" />
+    <link rel="stylesheet" href="css/bs3-mixlab-fancy.css" media="screen" />
+    <link rel="stylesheet" href="css/bs3-amelia-typography.css" media="screen" />
+    <link rel="stylesheet" href="css/fork-awesome.css" media="screen" />
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-            <script src="dist/js/html5shiv.min.js"></script>
-            <script src="dist/js/respond.min.js"></script>
-            <script src="dist/js/es5-shim.min.js"></script>
-            <script src="dist/js/es5-sham.min.js"></script>
+            <script src="js/html5shiv.min.js"></script>
+            <script src="js/respond.min.js"></script>
+            <script src="js/es5-shim.min.js"></script>
+            <script src="js/es5-sham.min.js"></script>
         <![endif]-->
 </head>
 <body class="has-navbar has-footer">
@@ -1266,6 +1266,86 @@
                                         </nav>
                                     </div><!-- /example -->
 
+
+
+                                    <div class="bs-component" style="height:100vh;">
+                                        <div class="col-xs-2">
+                                            <nav class="navbar nav-colored bg-danger sidebar-left">
+                                                <div class="container">
+                                                    <div class="navbar-header">
+                                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-sidebar-collapse-left" aria-expanded="false" aria-controls="navbar">
+                                                            <span class="sr-only">Toggle navigation</span>
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                        </button>
+                                                        <a class="navbar-brand" href="#">Project name</a>
+                                                    </div>
+                                                    <div class="navbar-collapse collapse" id="bs-example-sidebar-collapse-left">
+                                                        <ul class="nav navbar-nav">
+                                                            <li><a href="#">Home</a></li>
+                                                            <li><a href="#">About</a></li>
+                                                            <li><a href="#">Contact</a></li>
+                                                            <li class="dropdown">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Action</a></li>
+                                                                    <li><a href="#">Another action</a></li>
+                                                                    <li><a href="#">Something else here</a></li>
+                                                                    <li role="separator" class="divider"></li>
+                                                                    <li class="dropdown-header">Nav header</li>
+                                                                    <li><a href="#">Separated link</a></li>
+                                                                    <li><a href="#">One more separated link</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </nav>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <p>Sidebar functionality was forked from <a href="https://github.com/mladenplavsic/bootstrap-navbar-sidebar">https://github.com/mladenplavsic/bootstrap-navbar-sidebar</a>, and inserted into this project with a little modification.</p>
+                                            <p>You can also use sidebars, like <code>.sidebar-left</code>, <code>.sidebar-right</code>, and even fixed sidebars (<code>.sidebar-fixed-left</code>, and <code>.sidebar-fixed-right</code>).</p>
+                                            <p>When using fixed sidebars, suggested to add <code>.has-sidebar-fixed-left</code>, or <code>.has-sidebar-fixed-right</code> class to <code>&lt;body&gt;</code> tag. This case, sidebars have <code>z-index</code> set to <code>1030</code>.</p>
+                                            <p>Non-fixed sidebars may need pre-set <code>height</code> to avoid slipping under other elements. Non-fixed sidebars not have <code>z-index</code> set.</p>
+                                            <p>Feel free to use any type of navbar styles, or create your own style. (I recommend getting <a href="https://demos.telerik.com/kendo-ui/menu/orientation">Kendo UI's vertical menu style with Metro theme</a>, and porting it into Bootstrap.)</p>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <nav class="navbar nav-colored bg-success sidebar-right">
+                                                <div class="container">
+                                                    <div class="navbar-header">
+                                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-sidebar-collapse-right" aria-expanded="false" aria-controls="navbar">
+                                                            <span class="sr-only">Toggle navigation</span>
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                            <span class="icon-bar"></span>
+                                                        </button>
+                                                        <a class="navbar-brand" href="#">Project name</a>
+                                                    </div>
+                                                    <div class="navbar-collapse collapse" id="bs-example-sidebar-collapse-right">
+                                                        <ul class="nav navbar-nav">
+                                                            <li><a href="#">Home</a></li>
+                                                            <li><a href="#">About</a></li>
+                                                            <li><a href="#">Contact</a></li>
+                                                            <li class="dropdown">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                                                <ul class="dropdown-menu">
+                                                                    <li><a href="#">Action</a></li>
+                                                                    <li><a href="#">Another action</a></li>
+                                                                    <li><a href="#">Something else here</a></li>
+                                                                    <li role="separator" class="divider"></li>
+                                                                    <li class="dropdown-header">Nav header</li>
+                                                                    <li><a href="#">Separated link</a></li>
+                                                                    <li><a href="#">One more separated link</a></li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
@@ -6203,9 +6283,9 @@
             </div>
         </div>
     </footer>
-    <script src="dist/js/jquery.min.js"></script>
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="dist/js/custom.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
     <script>
     </script>
 </body>
