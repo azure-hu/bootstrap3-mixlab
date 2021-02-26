@@ -1204,6 +1204,45 @@ pre {
         filter: none;
     }
 
+.sidebar-left.navbar-default .navbar-nav > li:not(.open) > a:hover, .sidebar-left.navbar-default .navbar-nav > li:not(.open) > a:focus,
+.sidebar-left.navbar-default .dropdown-menu > li:not(.open) > a:hover, .sidebar-left.navbar-default .dropdown-menu > li:not(.open) > a:focus, 
+.sidebar-left.navbar-default .dropdown-menu > .active:not(.open) > a:hover, .sidebar-left.navbar-default .dropdown-menu > .active:not(.open) > a:focus,
+.sidebar-right.navbar-default .navbar-nav > li:not(.open) > a:hover, .sidebar-right.navbar-default .navbar-nav > li:not(.open) > a:focus,
+.sidebar-right.navbar-default .dropdown-menu > li:not(.open) > a:hover, .sidebar-right.navbar-default .dropdown-menu > li:not(.open) > a:focus, 
+.sidebar-right.navbar-default .dropdown-menu > .active:not(.open) > a:hover, .sidebar-right.navbar-default .dropdown-menu > .active:not(.open) > a:focus {
+    color: #ffffff;
+    background-color: #bad80a; /* Old browsers */
+	background-image: -moz-linear-gradient(top, #bad80a 0%, #61dd45 100%); /* FF3.6-15 */
+    background-image: -webkit-gradient(left top, left bottom, color-stop(100%, #61dd45)); /* Chrome4-9,Safari4-5 */
+    background-image: -webkit-linear-gradient(top, #bad80a 0%, #61dd45 100%); /* Chrome10-25,Safari5.1-6 */
+    background-image: -o-linear-gradient(top, #bad80a 0%, #61dd45 100%); /* Opera 11.10-11.50 */
+    background-image: -ms-linear-gradient(top, #bad80a 0%, #61dd45 100%); /* IE10 preview */
+    background-image: linear-gradient(to bottom, #bad80a 0%, #61dd45 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffbad80a', endColorstr='#ff61dd45',GradientType=0 )"; /* IE6-8 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffbad80a', endColorstr='#ff61dd45', GradientType=0); /* IE6-8 */
+    background-repeat: no-repeat;
+    filter: none;
+}
+
+.sidebar-left.navbar-default .navbar-nav > .open > a, .sidebar-left.navbar-default .navbar-nav > .open > a:hover, .sidebar-left.navbar-default .navbar-nav > .open > a:focus
+.sidebar-left.navbar-default .dropdown.open > a, .sidebar-left.navbar-default .dropdown.open > a:hover, .sidebar-left.navbar-default .dropdown.open > a:focus
+.sidebar-right.navbar-default .navbar-nav > .open > a, .sidebar-right.navbar-default .navbar-nav > .open > a:hover, .sidebar-right.navbar-default .navbar-nav > .open > a:focus,
+.sidebar-right.navbar-default .dropdown.open > a, .sidebar-right.navbar-default .dropdown.open > a:hover, .sidebar-right.navbar-default .dropdown.open > a:focus,
+.sidebar-left.navbar-default .dropdown-menu > .active > a, .sidebar-right.navbar-default .dropdown-menu > .active > a {
+    color: #ffffff;
+    background-color: #107c10; /* Old browsers */
+    background-image: -moz-linear-gradient(top, #61dd45 0%, #107c10 100%); /* FF3.6-15 */
+    background-image: -webkit-gradient(left top, left bottom, color-stop(0%, #61dd45), color-stop(100%, #107c10)); /* Chrome4-9,Safari4-5 */
+    background-image: -webkit-linear-gradient(top, #61dd45 0%,#107c10 100%); /* Chrome10-25,Safari5.1-6 */
+    background-image: -o-linear-gradient(top, #61dd45 0%, #107c10 100%); /* Opera 11.10-11.50 */
+    background-image: -ms-linear-gradient(top, #61dd45 0%, #107c10 100%); /* IE10 preview */
+    background-image: linear-gradient(to bottom, #61dd45 0%, #107c10 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff61dd45', endColorstr='#ff107c10',GradientType=0 )"; /* IE6-8 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff61dd45', endColorstr='#ff107c10', GradientType=0); /* IE6-8 */
+    background-repeat: no-repeat;
+    filter: none;
+}
+
     .alert-warning {
         background-image: -moz-linear-gradient(top, #fde8bf 0%, #fcdb9a 100%); /* FF3.6-15 */
         background-image: -webkit-gradient(left top, left bottom, color-stop(0%, #fde8bf), color-stop(100%, #fcdb9a)); /* Chrome4-9,Safari4-5 */
